@@ -10,8 +10,7 @@
 
 .head{
    background-color: rgba(255, 144, 14, 0.1);
-   max-width: 1440px;
-   margin: 0px auto;
+  width: 100%;
 }
 .nav-bar{
      display: flex;
@@ -94,5 +93,32 @@
 }
 .fact-special2{
     color: #FF900E;
+}
+/* section feature */
+.section section{
+    background-color: rgb(250, 249, 249);
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-width: 514px;
+    box-shadow: 5px 5px 5px rgb(68, 67, 67);
+}
+.section{
+    display: flex;
+}
+.section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0%;
+}
+.section-img{
+    width: 100%;
+    margin-left: 40px;
 }
 
